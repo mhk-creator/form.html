@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+body{
+    background-color:;
+}
+label{
+    width: 100px;
+    padding: 1px;
+    margin: 10px;
+}
+select{
+    width: 100px;
+    padding: 1px;
+    margin: 10px;
+}

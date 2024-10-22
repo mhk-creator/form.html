@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:darkcyan;"><br>
+<br>
+<h1 style="font-size: xx-large;color: white; text-align: center;"> APPLICATION FORM</h1>
+
+    <form style="margin:100px; font-size:x-large;">
+        <label for="name" style="color: white;">NAME:</label>
+        <input type="text" style="border:solid;">
+        <label for="fname" style="color: white;">F.NAME:</label>
+        <input type="text" style="border:solid;"><br>
+        <br>
+        <label for="dob" style="color: white;">DOB</label>
+        <input type="date" style="border: solid;">
+    
+            <label for="age" style="color: white;">AGE</label>
+            <input type="text" style="border: solid;"><br>
+            <br>
+        <label for="gender" style="color: white;" >GENDER</label>
+        <select name="gender" id="gender" style="border: solid;">
+            <option value="male">MALE</option>
+            <option value="fmale">FEMALE</option>
+            <option value="ctm">CUSTOM</option>
+        </select>
+
+        <label for="email" style="color: white;">EMAIL ADDRESS</label>
+        <input type="text" style="border: solid;"><br> 
+        <br>
+        <label for="position" style="color: white;">POSITION AVAILABLE :</label>  
+        <label for="jr developer" style="color:white;">JUNIOR DEVELOPER</label>
+        <input type="radio" id="jr developer" name="position availabale" value="JUNIOR DEVELOPER">
+        <label for="mid developer" style="color: white;">MID DEVELOPER</label>
+        <input type="radio" id="mid developer" name="position availabale" value="MID-DEVELOPER">
+        <label for="snr developer" style="color: white;">SENIOR DEVELOPER</label>
+     <input type="radio" name="position availabale" id="snr developer" value="SENIOR  DEVELOPER"><br>
+<br>
+        <label for="prg languages" style="color: white;">PROGRAMMING LANGUAGES :</label>
+        <label for="html" style="color: white;">HTML</label>
+        <input type="checkbox" id="html" name="html">
+        <label for="javascript" style="color: white;">JAVASCRIPT</label>
+        <input type="checkbox" id="jv script" name="javascript">
+        <label for="python" style="color: white;">PYTHON</label>
+        <input type="checkbox" name="python" id="python"><br>
+<br>
+
+        <label for="passwd" style="color: white;">PASSWORD</label>
+        <input type="text" style="border: solid;">
+        <label for="cnfrm passwd" style="color: white;">CONFIRM PASSWORD</label>
+        <input type="text" style="border: solid;"><br>
+        <br>
+        <input type="submit" value="submit" style="width: 100px; padding: 4px; background-color: red;">
+        <input type="reset" value="reset" style="width: 100px; padding: 4px; background-color: red;" >
+         
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
